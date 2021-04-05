@@ -1,0 +1,46 @@
+/* anything that is an <img> will have this css */
+img {
+  width: 100%;
+  /* make the width of the img fill up its parent */
+}
+
+header{
+  width: 100%;
+  font-size: 40px;
+  text-align: center;
+  color: white;
+  margin-top: 50px;
+  margin-bottom: 30px;
+  font-family: 'Futura';
+}
+
+body{
+  background-color:rgb(129, 183, 255);
+
+}
+
+div.imageWrap {
+  width: 200px; 
+}
+
+main.myClass{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding-left: 20px;
+  padding-right: 20px;
+  font-family: 'Futura';
+}
+
+div.tile {
+  width: 300px;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+p{
+  color: white;
+  
+}
