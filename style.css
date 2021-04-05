@@ -1,17 +1,39 @@
 img {
   width: 100%;
+  border: 5px solid #C5C6C7;
 }
 
 div.imageWrap {
   width: 200px;
+  align-items: center;
 }
 
 div.tile {
-  background-color: #87d8ec;
+  background-color: #45A29E;
   width: 250px;
   padding: 10px;
-
   display: flex;
   flex-direction: column;
   align-items: center;
+  margin: 10px;
+}
+
+div.header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 50px;
+  font-size: 4rem;
+  color: #66FCF1;
+  margin: 50px;
+}
+
+div.row {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+body {
+  background-color: #0B0C10;
 }
