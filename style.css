@@ -1,6 +1,9 @@
 img {
   width: 100%;
+  height: 100%;
+  object-fit: cover;
   border: 5px solid #C5C6C7;
+
 }
 
 div.imageWrap {
