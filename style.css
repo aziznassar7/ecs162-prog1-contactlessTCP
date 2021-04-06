@@ -1,0 +1,60 @@
+img {
+  width: 200px;
+  height: 	100%;
+}
+
+body {
+  background-color: #87d8ec;
+}
+
+
+div.imageWrap {
+  width: 200px;
+  height: 	200px;
+
+}
+
+div.body {
+  /*background-color: red;*/
+  /*width: all;*/
+ /* max-width: : 600px;*/
+
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-around;
+}
+
+div.element {
+	display: 	flex;
+	flex-direction: 	row;
+	flex-wrap: 	wrap;
+	/*flex: 1 0 33%; */
+	/*max-width: 	33%;*/
+	/*margin: 	30px;	*/
+	width: 	250px;
+	text-align: 	center;
+	align-items: 	center;	
+	align-content: center;	
+	justify-content: 	center;	
+}
+
+div.header {
+  /*background-color: red;*/
+  display: block;
+  font-size: 2em;
+  margin-top: 0.67em;
+  margin-bottom: 0.67em;
+  margin-left: 0;
+  margin-right: 0;
+  font-weight: bold;
+
+
+
+  justify-content: center;
+  justify-content: space-around;
+
+  display: flex;
+  align-items: center;
+}
