@@ -5,12 +5,12 @@ img {
 
 header{
   width: 100%;
-  font-size: 40px;
+  font-size: 50px;
   text-align: center;
   color: rgb(255, 255, 255);
-  margin-top: 50px;
+  margin-top: 40px;
   margin-bottom: 30px;
-  /* font-family: 'Indie Flower', cursive; */
+  font-family: 'Roboto', sans-serif;
 }
 
 body{
@@ -26,11 +26,6 @@ main.myMain{
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
-/*
-  flex-direction: row;
-  align-items: start;
-  flex-grow: 1;
-*/  
   padding-left: 20px;
   padding-right: 20px;
 }
@@ -41,6 +36,7 @@ div.tile {
   display: flex;
   flex-direction: column;
   align-items: center;
+  font-family: 'Roboto', sans-serif;
 }
 
 p{
